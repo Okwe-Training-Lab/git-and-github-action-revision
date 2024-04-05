@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print greetings
-        run: echo "Hello World! "
+        run: |
+          echo "Hello World! "
+          echo "Welcome to my revision class"
       - name: print goodbye
         run: echo "Done. Goodbye"
     
